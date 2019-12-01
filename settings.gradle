@@ -1,0 +1,4 @@
+// Submodules
+rootProject.name = 'bsg5'
+
+include 'chapter2'
