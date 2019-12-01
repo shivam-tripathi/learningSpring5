@@ -3,13 +3,13 @@ package com.bsg5.chapter2;
 import java.io.PrintStream;
 
 public class HelloWorldGreeter implements Greeter {
-    private PrintStream ps;
-    public void setPrintStream(PrintStream ps) {
-        this.ps = ps;
+    private PrintStream printStream;
+    public void setPrintStream(PrintStream printStream) {
+        this.printStream = printStream;
     }
 
     public void greet() {
-        this.ps.print("Hello, World!");
+        this.printStream.print("Hello, World!");
     }
 }
 
