@@ -3,3 +3,16 @@
 
 # Ignore Gradle build output directory
 build
+
+bin
+
+.settings
+
+.vim
+.vscode
+
+.project
+.classpath
+gradlew*
+
+gradle
