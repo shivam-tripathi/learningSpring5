@@ -2,3 +2,4 @@
 rootProject.name = 'bsg5'
 
 include 'chapter2'
+include 'chapter3'
