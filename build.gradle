@@ -4,9 +4,9 @@ targetCompatibility = 13.0
 
 // variables for use in every other submodule
 ext {
-	springFrameworkVersion = "5.1.5.RELEASE"
-	jacksonVersion = "2.9.9"
-	testNgVersion = "6.14.3"
+	springFrameworkVersion = "5.2.5.RELEASE"
+	jacksonVersion = "2.11.0.rc1"
+	testNgVersion = "7.1.0"
 }
 
 // build directives that apply to every project under this project

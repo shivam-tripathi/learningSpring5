@@ -1,7 +1,7 @@
 
 dependencies {
-	compile "org.springframework:spring-core:$springFrameworkVersion"
-	compile "org.springframework:spring-context:$springFrameworkVersion"
-	compile "org.springframework:spring-test:$springFrameworkVersion"
+	implementation "org.springframework:spring-core:$springFrameworkVersion"
+	implementation "org.springframework:spring-context:$springFrameworkVersion"
+	implementation "org.springframework:spring-test:$springFrameworkVersion"
 }
 
