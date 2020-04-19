@@ -10,6 +10,7 @@ bin
 
 .vim
 .vscode
+.idea
 
 .project
 .classpath
