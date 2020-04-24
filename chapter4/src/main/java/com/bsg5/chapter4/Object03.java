@@ -1,7 +1,5 @@
 package com.bsg5.chapter4;
 
-import org.springframework.stereotype.Component;
-
 public class Object03 extends HasData {
     static Object semaphore = null;
 
