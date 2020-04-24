@@ -1,0 +1,13 @@
+plugins {
+    id "war"
+    id "org.gretty" version "3.0.2"
+}
+
+dependencies {
+    implementation project(":chapter5common")
+    compileOnly "javax.servlet:javax.servlet-api:4.0.1"
+    implementation "org.jtwig:jtwig-web:5.87.0.RELEASE"
+    implementation "org.springframework:spring-web:$springFrameworkVersion"
+    implementation "org.springframework:spring-core:$springFrameworkVersion"
+    implementation "org.springframework:spring-context:$springFrameworkVersion"
+}
